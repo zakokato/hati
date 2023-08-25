@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20",
+    "minecraft:item": {
+        "description":{
+            "identifier": "honeyitem:hot_honey_ingot"
+        },
+        "components":{
+            "minecraft:icon":{
+                "texture": "hot_honey_ingot"
+            }
+        }
+    }
+}

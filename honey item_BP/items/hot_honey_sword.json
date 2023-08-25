@@ -1,0 +1,64 @@
+{
+    "format_version": "1.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "honeyitem:hot_honey_sword",
+            "category": "Equipment"
+        },
+        "components":{
+            "minecraft:icon":{
+            "texture": "hot_honey_sword"
+            },
+            "minecraft:max_stack_size": 1,
+                "minecraft:damage":6,
+                "minecraft:creative_category":{
+                    "parent": "itemGroup.name.sword"
+                
+                },
+            "minecraft:repairable":{
+                "repair_items": [
+                    {
+                        "items":["honeyitem:hot_honey_ingot"],
+                        "repair_amount": 100
+                    }
+                ]
+            },
+            "minecraft:durability":{
+                "max_durability":500,
+                "damage_chance": {
+                    "min":5,
+                    "max":100
+                }
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity":{
+                    "event":"on_use"
+            },
+            "minecraft:hand_equipped": true
+            } 
+                
+            }
+        },
+        "events":{
+            "on_use": {
+                "sequence": [
+                  {
+                    "run_command": {
+                      "command": [
+                        "damage @s 1"
+                      ],
+                      "target": "holder"
+                    }
+                  },
+                  {
+                    "damage": {
+                      "type": "durability",
+                      "amount": 20,
+                      "target": "self"
+                    }
+                  }
+                ]
+              }
+       }
+    }
+        

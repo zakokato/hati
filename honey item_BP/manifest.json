@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "はちみつアイテムを追加BP",
+        "name": "はちみつアイテムを追加します",
+        "uuid": "a26de740-2b03-463b-899b-e6648174b820",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 20, 15 ]
+    },
+    "modules": [
+        {
+            "description": "hatimitu",
+            "type": "data",
+            "uuid": "a66c2ce9-826e-46f1-8f76-3e433f4fba14",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "c7eb02be-0c6a-4115-9e24-0eb658212392",
+            "version": [0, 0, 1]
+        }
+    ]
+}

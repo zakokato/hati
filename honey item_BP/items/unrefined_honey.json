@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20",
+    "minecraft:item": {
+        "description":{
+            "identifier": "honeyitem:unrefined_honey"
+        },
+        "components":{
+            "minecraft:icon":{
+                "texture": "unrefined_honey"
+            }
+        }
+    }
+}

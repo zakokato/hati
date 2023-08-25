@@ -1,0 +1,52 @@
+{
+    "format_version": "1.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "honeyitem:honey_sword",
+            "category": "Equipment"
+        },
+        "components":{
+            "minecraft:icon":{
+            "texture": "honey_sword"
+            },
+            "minecraft:max_stack_size": 1,
+                "minecraft:damage":7,
+                "minecraft:creative_category":{
+                    "parent": "itemGroup.name.sword"
+                
+                },
+            "minecraft:repairable":{
+                "repair_items": [
+                    {
+                        "items":["honeyitem:honey_ingot"],
+                        "repair_amount": 70
+                    }
+                ]
+            },
+            "minecraft:durability":{
+                "max_durability":150,
+                "damage_chance": {
+                    "min":5,
+                    "max":100
+                }
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity":{
+                    "event":"honeyitem:kowareru",
+            "minecraft:hand_equipped": true
+            } 
+                
+            }
+        },
+        "events":{
+            "honeyitem:kowareru":{
+                "damage":{
+                    "type":"all",
+                    "amount":1,
+                    "target":"self"
+                }
+            }
+        }
+    }
+}
+        

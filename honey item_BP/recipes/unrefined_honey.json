@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "熱されたはちみつの剣"
+    },
+    "tags": [ 
+      "crafting_table" ],
+    "pattern": [
+      "ibi",
+      "ibi",
+      " b "
+    ],
+    "key": {
+      "g": {
+        "item": "minecraft:gold_ingot"
+      },
+      "d": {
+        "item": "minecraft:diamond"
+      },
+      "h":{
+        "item": "honeyitem:honey_ingot"
+      },
+      "n":{
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "item": "honeyitem:hot_honey_sword"
+    }
+  }
+}
