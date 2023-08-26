@@ -9,7 +9,7 @@
       "pattern": [
         "ibi",
         "ibi",
-        " b "
+        "iki"
       ],
       "key": {
         "i": {
@@ -17,6 +17,9 @@
         },
         "b": {
           "item": "honeyitem:hot_honey_ingot"
+        },
+        "k": {
+          "item": "minecraft:stick"
         }
       },
       "result": {
