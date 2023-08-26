@@ -1,7 +1,7 @@
 統合版マイクラで使えるアドオンです。
 詳しくは解説を見てね。
 不具合、要望は解説を見てから、
-https://ameblo.jp/zakokato/entry-12817872486.html
+[https://ameblo.jp/zakokato/entry-12817872486.html](https://github.com/zakokato/hati/issues)
 に気軽にコメントしてください。
 通常ファイルでダウンロードする場合:リソースパックとベヘイベアーパックの両方をダウンロードしてください。
 mcaddonファイルでダウンロードする場合:mcaddonファイルだけで問題ありません。
