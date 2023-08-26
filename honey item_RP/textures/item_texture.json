@@ -1,0 +1,24 @@
+{
+    "resource_pack_name": "honey items",
+    "texture_data":{
+        "honey_ingot" :{
+            "textures": "textures/honey item/items/honey_ingot"
+        },
+        "honey_sword" :{
+            "textures": "textures/honey item/items/honey_sword"
+        },
+        "hard_honey_ingot" :{
+            "textures":"textures/honey item/items/hard_honey_ingot"
+        },
+        "hot_honey_ingot" :{
+            "textures":"textures/honey item/items/hot_honey_ingot"
+        },
+        "unrefined_honey" :{
+            "textures":"textures/honey item/items/unrefined_honey"
+        },
+        "hot_honey_sword" :{
+            "textures":"textures/honey item/items/hot_honey_sword"
+        }
+    },
+    "texture_name": "atlas.items"
+}
